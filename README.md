@@ -2,7 +2,7 @@
 Az összes eddigi pygame projektem
 
 ## 1. IKT-Fizikusok projekt
-- Egy adatbáziskezelő szoftver le pygame-ben, amely képes olvasni egy JSON fájl tartalmait, majd azokat kiírni a kijelzőre
+- Egy adatbáziskezelő szoftver pygame-ben, amely képes olvasni egy JSON fájl tartalmait, majd azokat kiírni a kijelzőre
 - A felhasználónak további lehetősége van hogy megnyissa az egyes adatokat, és egy leírást olvasson azokról
 - A program egy kidolgozott, kattintható felhasználói felületet nyújt a használónak, amely lehetővé teszi a könnyű navigációt
 - A JSON Struktúra kifejezetten erre a projektre íródott, de a programban egyes változók átírásával lehetséges akármilyen adatstruktúrát is hozzácsatolni
