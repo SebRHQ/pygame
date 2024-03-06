@@ -1,0 +1,13 @@
+csapat,győzelem,döntetlen,vereség,rúgott,kapott
+Videoton,10,4,5,39,19
+Honvéd,10,4,5,32,17
+Vasas,10,4,5,30,18
+Ferencváros,8,6,5,34,27
+Ujpest,6,9,4,30,26
+Mezőkövesd,7,6,6,21,22
+Haladás,7,5,7,22,23
+Paks,5,8,6,18,24
+Diósgyőr,6,3,10,24,36
+Debrecen,5,5,9,20,26
+MTK,4,8,7,12,21
+Gyirmót,3,4,12,8,31
