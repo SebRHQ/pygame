@@ -3,42 +3,51 @@
         {
             "Születési idő": "JAN 17, 1706",
             "Név": "Benjamin Franklin",
-            "Leírás": "Benjamin Franklin amerikai diplomata, feltaláló, író, polgári demokrata politikus, természettudós, filozófus, nyomdász, az első név szerint ismert amerikai sakkozó.Franklin tehetséges fizikus és feltaláló volt. Feltalálta többek között a villámhárítót, az üvegharmonikát, a Franklin-kályhát, a bifokális szemüveglencsét és a rugalmas katétert. Bár nem védjegyeztette egyik találmányát sem, mindig támogatta a fejlesztők és szerzők jogait."
+            "Leírás": "Benjamin Franklin amerikai diplomata, feltaláló, író, polgári demokrata politikus, természettudós, filozófus, nyomdász, az első név szerint ismert amerikai sakkozó.Franklin tehetséges fizikus és feltaláló volt. Feltalálta többek között a villámhárítót, az üvegharmonikát, a Franklin-kályhát, a bifokális szemüveglencsét és a rugalmas katétert. Bár nem védjegyeztette egyik találmányát sem, mindig támogatta a fejlesztők és szerzők jogait.",
+            "Kép": "meta/benjamin.png"
         },
         {
             "Születési idő": "MAR 14, 1879",
             "Név": "Albert Einstein",
-            "Leírás": "Albert Einstein elméleti fizikus; tudományos és laikus körökben a legnagyobb 20. századi tudósnak tartják. Ő fejlesztette ki a relativitáselméletet és nagymértékben hozzájárult a kvantummechanika, a statisztikus mechanika és a kozmológia fejlődéséhez. 1921-ben fizikai Nobel-díjjal jutalmazták „az elméleti fizika területén szerzett érdemeiért, különös tekintettel a fényelektromos jelenség törvényszerűségeinek felismeréséért”."
+            "Leírás": "Albert Einstein elméleti fizikus; tudományos és laikus körökben a legnagyobb 20. századi tudósnak tartják. Ő fejlesztette ki a relativitáselméletet és nagymértékben hozzájárult a kvantummechanika, a statisztikus mechanika és a kozmológia fejlődéséhez. 1921-ben fizikai Nobel-díjjal jutalmazták „az elméleti fizika területén szerzett érdemeiért, különös tekintettel a fényelektromos jelenség törvényszerűségeinek felismeréséért”.",
+            "Kép": "meta/einstein.png"
         },
         {
             "Név": "Thomas Edison",
             "Születési idő": "FEB 11, 1847",
-            "Leírás": "Thomas Edison amerikai elektrotechnikus, üzletember, feltaláló; születésnapja Ronald Reagan, az Amerikai Egyesült Államok elnökének 1983-as deklarációja óta a Nemzeti Feltalálók Napja (National Inventors' Day) az USA-ban."
+            "Leírás": "Thomas Edison amerikai elektrotechnikus, üzletember, feltaláló; születésnapja Ronald Reagan, az Amerikai Egyesült Államok elnökének 1983-as deklarációja óta a Nemzeti Feltalálók Napja (National Inventors' Day) az USA-ban.",
+            "Kép": "meta/edison.png"
         },
         {
             "Név": "Nikola Tesla",
             "Születési idő": "JUL 10, 1856",
-            "Leírás": "Nikola Tesla szerb származású amerikai villamosmérnök, fizikus, feltaláló, a modern váltóáramú elektromos rendszerek és az elektromos energia átvitelének egyik legnagyobb alakja. A váltóáramú rendszerek és a villamosenergia átvitelének feltalálója. A modern rádiótechnika, a radar, a robotika, a távirányítás, a számítógép, a telemetria, a vezeték nélküli kommunikáció, a mobiltelefon, a kriptográfia, a számítógépes tudomány, a ballisztika, a kibernetika, a számítógépes szimuláció"
+            "Leírás": "Nikola Tesla szerb származású amerikai villamosmérnök, fizikus, feltaláló, a modern váltóáramú elektromos rendszerek és az elektromos energia átvitelének egyik legnagyobb alakja. A váltóáramú rendszerek és a villamosenergia átvitelének feltalálója. A modern rádiótechnika, a radar, a robotika, a távirányítás, a számítógép, a telemetria, a vezeték nélküli kommunikáció, a mobiltelefon, a kriptográfia, a számítógépes tudomány, a ballisztika, a kibernetika, a számítógépes szimuláció",
+            "Kép": "meta/tesla.png"
         },
         {
             "Név": "Isaac Newton",
             "Születési idő": "DEC 24, 1642",
-            "Leírás": "Isaac Newton angol fizikus. 1661-től Cambridge-ben tanult. Az 1665-ös nagy pestisjárvány idejére birtokára vonult vissza, ahol két év alatt olyan nagyszerű gondolatok fogalmazódtak meg benne, mint a differenciálszámítás elmélete, a színelmélet, a dinamika alaptörvényei és az általános tömegvonzás törvérvénye."
+            "Leírás": "Isaac Newton angol fizikus. 1661-től Cambridge-ben tanult. Az 1665-ös nagy pestisjárvány idejére birtokára vonult vissza, ahol két év alatt olyan nagyszerű gondolatok fogalmazódtak meg benne, mint a differenciálszámítás elmélete, a színelmélet, a dinamika alaptörvényei és az általános tömegvonzás törvérvénye.",
+            "Kép": "meta/newton.png"
         },
         {
             "Név": "Galileo Galilei",
             "Születési idő": "FEB 15, 1564",
-            "Leírás": "Galileo Galilei itáliai fizikus, csillagász, matematikus, természettudós. A fizikában ő honosította meg a kísérleteket és méréseket, új módszereket adva ezzel a fizikának (és a többi természettudománynak). A csillagászatban ő volt az első, aki tudatosan használta az általa épített távcsöveket csillagászati jelenségek és objektumok megfigyelésére. Eredményei összhangban voltak a kopernikuszi heliocentrikus világképpel"
+            "Leírás": "Galileo Galilei itáliai fizikus, csillagász, matematikus, természettudós. A fizikában ő honosította meg a kísérleteket és méréseket, új módszereket adva ezzel a fizikának (és a többi természettudománynak). A csillagászatban ő volt az első, aki tudatosan használta az általa épített távcsöveket csillagászati jelenségek és objektumok megfigyelésére. Eredményei összhangban voltak a kopernikuszi heliocentrikus világképpel",
+            "Kép": "meta/galilei.png"
         },
         {
-            "Név": "Johannes Kapler",
+            "Név": "Johannes Kepler",
             "Születési idő": "DEC 27, 1571",
-            "Leírás": "Johannes Kepler német matematikus, csillagász és optikus volt, aki felfedezte a bolygómozgás törvényeit, amelyeket róla Kepler-törvényeknek neveznek."
+            "Leírás": "Johannes Kepler német matematikus, csillagász és optikus volt, aki felfedezte a bolygómozgás törvényeit, amelyeket róla Kepler-törvényeknek neveznek.",
+            "Kép": "meta/kepler.png"
         },
         {
             "Név": "Michael Faraday",
             "Születési idő": "SEP 22, 1791",
-            "Leírás": "Michael Faraday angol fizikus és kémikus. Az elektrotechnika nagy alakja, aki magát természetfilozófusnak tartotta, jelentősen hozzájárult az elektromágnesesség és elektrokémia területeinek fejlődéséhez. Ő találta fel a később Bunsen-égő néven ismertté vált hőforrás első változatát. Michael Faradayt a történelem egyik legnagyszerűbb tudósának tartják."
+            "Leírás": "Michael Faraday angol fizikus és kémikus. Az elektrotechnika nagy alakja, aki magát természetfilozófusnak tartotta, jelentősen hozzájárult az elektromágnesesség és elektrokémia területeinek fejlődéséhez. Ő találta fel a később Bunsen-égő néven ismertté vált hőforrás első változatát. Michael Faradayt a történelem egyik legnagyszerűbb tudósának tartják.",
+            "Kép": "meta/faraday.png"
+
         }
     ]
 }
