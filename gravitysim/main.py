@@ -232,8 +232,12 @@ while state:
                 planets.append(moon)
                 earthorbits = 0
                 moonorbits = 0
+                drag = False
             if event.key == pygame.K_e:
-                pressede = True
+                pos1 = pygame.mouse.get_pos()
+                newPlanet = planet(pos1[0], -pos1[1]+height, default_mass, default_diameter, default_color)
+                planets.append(newPlanet)
+                drag = False
             if event.key == pygame.K_p:
                 pause = not pause
 
@@ -274,17 +278,15 @@ while state:
             default_diameter=50 * (diameter / 100)
             default_color=colors[colorindex]
             
-        if event.type == pygame.MOUSEBUTTONUP or pressede:
-            if not 1268 < pygame.mouse.get_pos()[0] < width and 88 < pygame.mouse.get_pos()[1] < 231 and not settings or pressede:
-                if pressede:
-                    pressede = False
-                    pos1 = pygame.mouse.get_pos()
-                drag = False
-                pos2 = pygame.mouse.get_pos()
-                newPlanet = planet(pos1[0], -pos1[1]+height, default_mass, default_diameter, default_color)
-                planets.append(newPlanet)
-                newPlanet.dx = ((pos1[0] - pos2[0]) / 30) * default_strength
-                newPlanet.dy = ((pos2[1] - pos1[1]) / 30) * default_strength
+        if event.type == pygame.MOUSEBUTTONUP:
+            drag = False
+            if not 1268 < pygame.mouse.get_pos()[0] < width and 88 < pygame.mouse.get_pos()[1] < 231:
+                if not settings:
+                    pos2 = pygame.mouse.get_pos()
+                    newPlanet = planet(pos1[0], -pos1[1]+height, default_mass, default_diameter, default_color)
+                    planets.append(newPlanet)
+                    newPlanet.dx = ((pos1[0] - pos2[0]) / 30) * default_strength
+                    newPlanet.dy = ((pos2[1] - pos1[1]) / 30) * default_strength
                 
                 
 
