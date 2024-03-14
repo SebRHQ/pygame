@@ -52,13 +52,7 @@ class planet():
 
 
 
-earth=planet(width/2-200,height/2,1000,5,(0, 150, 100))
-earth.dy=3.5
-moon=planet(width/2-220,height/2,250,2,(100, 100, 100))
-moon.dy=5.2
-moon.dx=0
-sun=planet(width/2,height/2,50000,20,(255, 255, 0))
-sun.dy=-0.1
+
 
 earthorbits = 0
 moonorbits = 0
@@ -119,12 +113,19 @@ colors = [(255, 255, 255), (255, 0, 0), (0, 255, 0), (0, 0, 255), (255, 255, 0),
 
 points = []
 
+earth=planet(width/2-200,height/2,1000,5,(0, 150, 100))
+earth.dy=3.5
+moon=planet(width/2-220,height/2,250,2,(100, 100, 100))
+moon.dy=5.2
+moon.dx=0
+sun=planet(width/2,height/2,50000,20,(255, 255, 0))
+sun.dy=-0.1
 planets.append(earth)
 planets.append(sun)
 planets.append(moon)
 
-default_mass=100000 * (strenght / 100)
-default_diameter=5 * (diameter / 100)
+default_mass=100000 * (mass / 100)
+default_diameter=50 * (diameter / 100)
 default_color=(255,255,255)
 default_strength=30 * (strenght / 100)
 
@@ -269,7 +270,7 @@ while state:
                 if colorindex > len(colors)-1:
                     colorindex = 0
 
-            default_mass=50000 * (strenght / 100)
+            default_mass=100000 * (mass / 100)
             default_diameter=50 * (diameter / 100)
             default_color=colors[colorindex]
             
@@ -289,27 +290,26 @@ while state:
 
     keys = pygame.key.get_pressed()
 
-    if keys == pygame.K_w:
+    if keys[pygame.K_DOWN]:
         for p in planets:
             p.y += 1
         for i in points:
-            i[1] += 1
-    if keys == pygame.K_s:
+            i[1] -= 1
+    if keys[pygame.K_UP]:
         for p in planets:
             p.y -= 1
         for i in points:
-            i[1] -= 1
-    if keys == pygame.K_a:
+            i[1] += 1
+    if keys[pygame.K_LEFT]:
         for p in planets:
             p.x += 1
         for i in points:
             i[0] += 1
-    if keys == pygame.K_d:
+    if keys[pygame.K_RIGHT]:
         for p in planets:
             p.x -= 1
         for i in points:
-            i[0] -= 1
-    
+            i[0] -= 1 
     #calculating part
     for rp in planets:
         for p in planets:
@@ -366,10 +366,10 @@ while state:
     for i in planets:
         if toggledots and not pause:
             dotx, doty = i.x, -(i.y)+height
-            points.append((dotx, doty))
+            points.append([dotx, doty])
     
     for dot in points:
-        pygame.draw.circle(disp, (0, 0, 255), dot, 1)
+        pygame.draw.circle(disp, (0, 0, 255), (dot[0], dot[1]), 1)
 
     if sun.x+2 > earth.x > sun.x-2 and earth.dx > sun.dx:
         earthorbits += 1
