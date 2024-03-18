@@ -53,5 +53,6 @@ Az összes eddigi pygame projektem
               - Tömeg: 0,25%
               - Átmérő: 4%
         
-                
+
+            made by vajky.hu
 
